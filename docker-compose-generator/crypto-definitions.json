@@ -89,5 +89,12 @@
     "CLightningFragment": null,
     "LNDFragment": null,
     "EclairFragment": null
+  },
+  {
+    "Crypto": "matic",
+    "CryptoFragment": "matic",
+    "CLightningFragment": null,
+    "LNDFragment": null,
+    "EclairFragment": null
   }
 ]
