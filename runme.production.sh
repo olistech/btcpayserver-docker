@@ -18,6 +18,9 @@ export BTCPAYGEN_REVERSEPROXY="nginx"
 export LETSENCRYPT_EMAIL="simonluca.landi@gmail.com"
 export ACME_CA_URI="https://acme-v01.api.letsencrypt.org/directory"
 export BTCPAYGEN_ADDITIONAL_FRAGMENTS="$BTCPAYGEN_ADDITIONAL_FRAGMENTS"
+
+CO=$(aws ecr get-login --region eu-west-1 --no-include-email) && $CO
+
 . ./btcpay-setup.sh -i
 exit
 
